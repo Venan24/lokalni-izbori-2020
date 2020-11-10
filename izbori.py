@@ -11,7 +11,7 @@ def dobrodoslica():
 def unesi_stranke():
     stranke = []
     while True:
-        ime_stranke = input("Unesite ime strankie ili skracenicu --> ")
+        ime_stranke = input("Unesite ime stranke ili skracenicu --> ")
         if ime_stranke == "STOP" or ime_stranke == "stop":
             pogodi_izbore(stranke)
             break
